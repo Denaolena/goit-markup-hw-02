@@ -67,10 +67,22 @@ body {
 .contacts .contacts-link:focus {
   color: var(--accent-color);
 }
-/* sections */
+/* hero*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 
 .section-one {
-  background-color: var(--primary-text-color);
+  background-color: #2f303a;
 }
 .section-one .section-title {
   color: var(--primary-bg-color);
@@ -135,6 +147,7 @@ body {
   background-color: #2f303a;
 }
 .footer-title {
+  font-style: normal 3;
   font-size: 14px;
   line-height: 1.7;
   color: var(--primary-bg-color);
